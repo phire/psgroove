@@ -48,7 +48,7 @@ const PROGMEM device port2_device = {
 
 const PROGMEM device port3_device = {
 	port3_device_descriptor,
-	1,
+	-1, // Just repeat this configuration as many times as it is asked for.
 	port3_config_descriptor,
 	port3_config_descriptor,
 };
